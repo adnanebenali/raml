@@ -1,0 +1,110 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Toubou3\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\178_PD Fonder 8 Bars.wav" />
+    <None Remove="Resources\22_Dm Basic Drone.wav" />
+    <None Remove="Resources\29_ABS_COF_FullLoop_03_Dm_93bpm.wav" />
+    <None Remove="Resources\A.wav" />
+    <None Remove="Resources\Ab.wav" />
+    <None Remove="Resources\B.wav" />
+    <None Remove="Resources\Bb.wav" />
+    <None Remove="Resources\C#.wav" />
+    <None Remove="Resources\C.wav" />
+    <None Remove="Resources\c1s.wav" />
+    <None Remove="Resources\c2.wav" />
+    <None Remove="Resources\D.wav" />
+    <None Remove="Resources\d1s.wav" />
+    <None Remove="Resources\E.wav" />
+    <None Remove="Resources\Eb.wav" />
+    <None Remove="Resources\F#.wav" />
+    <None Remove="Resources\F.wav" />
+    <None Remove="Resources\f1s.wav" />
+    <None Remove="Resources\G.wav" />
+    <None Remove="Resources\g1s.wav" />
+    <None Remove="Resources\wav_a1s.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\178_PD Fonder 8 Bars.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\22_Dm Basic Drone.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\29_ABS_COF_FullLoop_03_Dm_93bpm.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\A.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Ab.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\B.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bb.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\C.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\c1s.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\c2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\D.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\C#.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\d1s.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\E.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Eb.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\F#.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\F.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\f1s.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\G.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\g1s.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\wav_a1s.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="NWaves" Version="0.9.6" />
+  </ItemGroup>
+
+</Project>
