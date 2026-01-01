@@ -1,6 +1,6 @@
 ﻿using NWaves.Signals;
 
-namespace raml
+namespace Raml.Audio
 {
 	public class PitchDetector
 	{
