@@ -1,4 +1,4 @@
-﻿namespace raml
+﻿namespace raml.toubou3
 {
 	internal class Toubou3Builder
 	{

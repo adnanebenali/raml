@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace raml
+namespace raml.toubou3
 {
 	/// <summary>
 	/// General helper to determine a Tab3 given a Khaliyya (no smarts, just simple lookup)
@@ -35,7 +35,7 @@ namespace raml
 						{
 							if (tab3.Khalaya.Contains(khaliyya))
 							{
-								bool matched = (focus != null) && focus.Name.Equals(tab3.Name);
+								bool matched = focus != null && focus.Name.Equals(tab3.Name);
 								string formatted_match = (matched ? $"{MyColors.BLUE}" : "") + Shrink(tab3.Short) + (matched ? $"{MyColors.NORMAL}" : "");
 
 								if (_toubou3ByKhalayaDisplayed.TryGetValue(khaliyya, value: out var result))

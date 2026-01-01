@@ -1,4 +1,4 @@
-﻿namespace raml
+﻿namespace raml.toubou3
 {
 	/// <summary>
 	/// Simple type for musical note with direction (up or down) in the context of a Khaliyya whether
@@ -54,7 +54,7 @@
 			{
 				int hash = (int)2166136261;
 				//hash = (hash * 16777619) ^ (Direction.GetHashCode());
-				hash = (hash * 16777619) ^ (Name.GetHashCode());
+				hash = hash * 16777619 ^ Name.GetHashCode();
 
 				return hash;
 			}

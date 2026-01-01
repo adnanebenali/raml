@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace raml
+namespace raml.toubou3
 {
 	/// <summary>
 	/// Tab3 (arabic) means musical Mode, in the Andaloussi music tradition.

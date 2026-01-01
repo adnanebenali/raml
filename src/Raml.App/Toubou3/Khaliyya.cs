@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace raml
+namespace raml.toubou3
 {
 	/// <summary>
 	/// Khaliyya (arabic) means a cell. 
@@ -76,7 +76,7 @@ namespace raml
 
 				foreach (Nota nota in Notatt)
 				{
-					hash = (hash * 16777619) ^ (nota.GetHashCode());
+					hash = hash * 16777619 ^ nota.GetHashCode();
 				}
 
 				return hash;

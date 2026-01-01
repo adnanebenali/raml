@@ -1,4 +1,4 @@
-﻿namespace raml
+﻿namespace raml.toubou3
 {
 	public enum NotaDirection
 	{

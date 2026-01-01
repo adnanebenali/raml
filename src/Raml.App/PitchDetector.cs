@@ -30,7 +30,7 @@ namespace raml
 			{
 				for (int i = 0; i < _bufferSize - lag; i++)
 				{
-					if ((i >= signal.Length) || (i + lag >= signal.Length))
+					if (i >= signal.Length || i + lag >= signal.Length)
 						break;
 
 					autocorrelation[lag] += signal[i] * signal[i + lag];
