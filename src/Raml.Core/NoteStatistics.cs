@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 
-namespace raml
+namespace Raml.Core
 {
 
 	public class NoteStatistics : INotifyPropertyChanged

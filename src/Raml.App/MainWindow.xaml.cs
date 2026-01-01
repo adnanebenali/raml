@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 using NAudio.Wave;
 using raml.toubou3;
-
+using Raml.Core;
 
 
 namespace raml

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace raml
+namespace Raml.Core
 {
 
 	public class AverageCalculator : INotifyPropertyChanged

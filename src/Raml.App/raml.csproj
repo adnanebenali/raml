@@ -107,4 +107,8 @@
     <PackageReference Include="NWaves" Version="0.9.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Raml.Core\Raml.Core.csproj" />
+  </ItemGroup>
+
 </Project>

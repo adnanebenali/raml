@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raml", "src\Raml.App\raml.csproj", "{57D91DFE-55C9-44B5-AA86-99BA32561E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raml.Core", "src\Raml.Core\Raml.Core.csproj", "{88E1B6C8-2825-4B39-81B0-D9E341E9AAAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{57D91DFE-55C9-44B5-AA86-99BA32561E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57D91DFE-55C9-44B5-AA86-99BA32561E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57D91DFE-55C9-44B5-AA86-99BA32561E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E1B6C8-2825-4B39-81B0-D9E341E9AAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E1B6C8-2825-4B39-81B0-D9E341E9AAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E1B6C8-2825-4B39-81B0-D9E341E9AAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E1B6C8-2825-4B39-81B0-D9E341E9AAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
