@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Media;
 
-namespace raml
+namespace Raml.App
 {
 	/// <summary>
 	/// Represents the note segment geometry in the donut shape (circle of fifths)

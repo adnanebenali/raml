@@ -1,7 +1,7 @@
-﻿<Application x:Class="raml.App"
+﻿<Application x:Class="Raml.App.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:raml"
+             xmlns:local="clr-namespace:Raml.App"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

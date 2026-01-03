@@ -12,7 +12,7 @@ using Raml.Core;
 using Raml.Modes.Andaloussi;
 
 
-namespace raml
+namespace Raml.App
 {
 	public partial class MainWindow : Window, INotifyPropertyChanged
 	{

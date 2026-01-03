@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raml", "src\Raml.App\raml.csproj", "{57D91DFE-55C9-44B5-AA86-99BA32561E6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raml.App", "src\Raml.App\Raml.App.csproj", "{57D91DFE-55C9-44B5-AA86-99BA32561E6A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raml.Core", "src\Raml.Core\Raml.Core.csproj", "{88E1B6C8-2825-4B39-81B0-D9E341E9AAAE}"
 EndProject

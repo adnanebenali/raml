@@ -2,7 +2,7 @@
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace raml
+namespace Raml.App
 {
 
 	public class DynamicHeatmapColorConverter : IMultiValueConverter
