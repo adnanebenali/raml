@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace raml.toubou3
+namespace Raml.Modes.Andaloussi
 {
 	/// <summary>
 	/// Tab3 (arabic) means musical Mode, in the Andaloussi music tradition.
@@ -9,7 +9,7 @@ namespace raml.toubou3
 	/// Toubou3 is plural for Tab3.
 	/// Example of Toubou3: Raml El-Maya, Maya, Sbihan, La7ssin, etc.
 	/// </summary>
-	internal class Tab3
+	public class Tab3
 	{
 		public Toubou3 Type { get; set; } = Toubou3.Unknown;
 		public string Name { get; set; } = string.Empty;

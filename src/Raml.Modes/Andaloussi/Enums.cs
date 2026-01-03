@@ -1,4 +1,4 @@
-﻿namespace raml.toubou3
+﻿namespace Raml.Modes.Andaloussi
 {
 	public enum NotaDirection
 	{

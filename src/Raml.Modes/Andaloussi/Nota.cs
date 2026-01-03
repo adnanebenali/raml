@@ -1,11 +1,11 @@
-﻿namespace raml.toubou3
+﻿namespace Raml.Modes.Andaloussi
 {
 	/// <summary>
 	/// Simple type for musical note with direction (up or down) in the context of a Khaliyya whether
 	/// it is ascending or descending.
 	/// for example if the phrase is E F G, and F is the Nota, the direction would be up.
 	/// </summary>
-	internal class Nota
+	public class Nota
 	{
 		public Nota(Notatt name, NotaDirection direction)
 		{

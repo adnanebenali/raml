@@ -1,6 +1,6 @@
-﻿namespace raml.toubou3
+﻿namespace Raml.Modes.Andaloussi
 {
-	internal class Toubou3Builder
+	public class Toubou3Builder
 	{
 		private readonly List<Tab3> _toubou3 = new List<Tab3>();
 		private readonly Dictionary<Toubou3, Tab3> _enumeratedToubou3 = new Dictionary<Toubou3, Tab3>();

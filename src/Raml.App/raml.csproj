@@ -110,6 +110,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Raml.Audio\Raml.Audio.csproj" />
     <ProjectReference Include="..\Raml.Core\Raml.Core.csproj" />
+    <ProjectReference Include="..\Raml.Modes\Raml.Modes.csproj" />
   </ItemGroup>
 
 </Project>

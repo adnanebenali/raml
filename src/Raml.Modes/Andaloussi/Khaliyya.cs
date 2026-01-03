@@ -1,15 +1,15 @@
 ﻿using System.Text;
 
-namespace raml.toubou3
+namespace Raml.Modes.Andaloussi
 {
 	/// <summary>
 	/// Khaliyya (arabic) means a cell. 
-	/// In this context it means a phrase of specific musical notes.
+	/// In this context it means a phrase of specific musical notes that occurs as a building block in a musical piece.
 	/// Andaloussi modes are characterized by the occurrence of specific cells (phrases), or Khalaya (plural of Khaliyya) 
 	/// that make up the character and personality of that mode. This is a theory set forth by Moroccan music researcher Amin Chaachoo
 	/// which I am adopting here to define a mapping of Mode to its Khalaya, as defined by Chaachoo.
 	/// </summary>
-	internal class Khaliyya
+	public class Khaliyya
 	{
 		public List<Nota> Notatt { get; set; } = new List<Nota>();
 

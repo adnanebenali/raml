@@ -1,13 +1,13 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace raml.toubou3
+namespace Raml.Modes.Andaloussi
 {
 	/// <summary>
 	/// General helper to determine a Tab3 given a Khaliyya (no smarts, just simple lookup)
 	/// and other musical note helpers.
 	/// May need reorganization later and refactoring.
 	/// </summary>
-	internal class Sniffer
+	public class Sniffer
 	{
 		private readonly Dictionary<Khaliyya, SortedSet<string>> _toubou3ByKhalayaDisplayed = new Dictionary<Khaliyya, SortedSet<string>>();
 		private readonly Dictionary<Khaliyya, SortedSet<Toubou3>> _toubou3ByKhalaya = new Dictionary<Khaliyya, SortedSet<Toubou3>>();
